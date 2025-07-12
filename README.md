@@ -34,8 +34,10 @@ This will generate a .exe file inside the dist/ folder.
 # How to Use
 
 ### Select your character in the GUI (Hunter / Warlock)
-Key	    Action
-F10	    Arm the macro
-F11	    Disarm the macro
-5	    Execute Edge macro
-6	    Execute Ground macro
+| Key       | Action                     |
+|-----------|----------------------------|
+| `F10`     | Arm the macro              |
+| `F11`     | Disarm the macro           |
+| `5`       | Execute **Edge** macro     |
+| `6`       | Execute **Ground** macro   |
+
