@@ -26,7 +26,7 @@ pip install pyinstaller
 
 Note run the following in CMD (replace "username" with your actual Windows username):
 ```bash
-pyinstaller --onefile --windowed "C:\Users\username\Desktop\macro_app.py"
+pyinstaller --onefile --windowed --hidden-import=keyboard --hidden-import=mouse --hidden-import=pystray --hidden-import=PIL --hidden-import=PIL.Image --hidden-import=PIL.ImageDraw "C:\Users\username\Desktop\macro_app.py"
 ```
 
 This will generate a .exe file inside the dist/ folder.
